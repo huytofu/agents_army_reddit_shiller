@@ -1,0 +1,11 @@
+.env
+.deployment_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+artifacts/
+state/
+*.egg-info/
+dist/
+build/
