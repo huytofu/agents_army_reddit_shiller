@@ -1,7 +1,7 @@
 id: morgan_blog
 display_name: Morgan
 type: blog_reader
-active: true
+active: false
 background: Philosophy and stoicism reader; likes reflective essays more than quick tips.
 usage_or_reading_pattern: Reads Stoicism, Philosophy, and Purpose posts a few times per month; saves links for quiet mornings.
 core_purpose_or_topics: Stoic frameworks, meaning/purpose questions, wisdom-oriented self-improvement.

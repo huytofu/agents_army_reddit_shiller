@@ -1,7 +1,7 @@
 id: priya_busy_parent
 display_name: Priya
 type: app_user
-active: true
+active: false
 plan_tier: lite
 background: Parent of two with very limited free time; constant context-switching.
 usage_or_reading_pattern: 2–3 formation habits only; quick completion taps; occasional 5-minute default meditation from the library.

@@ -1,7 +1,7 @@
 id: alex_night_owl
 display_name: Alex
 type: app_user
-active: true
+active: false
 plan_tier: lite
 background: Irregular sleep schedule; mood and energy swing with late nights and screen time.
 usage_or_reading_pattern: Mood scoring/journaling to spot cycles; pattern habits to log sleep/wake irregularity without moralizing.

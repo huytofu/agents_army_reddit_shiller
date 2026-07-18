@@ -1,7 +1,7 @@
 id: taylor_community
 display_name: Taylor
 type: app_user
-active: true
+active: false
 plan_tier: premium
 background: Motivated by visible progress and personal milestones; uses journaling to mark small wins privately.
 usage_or_reading_pattern: Daily formation habit completion; mood journaling after wins and setbacks; Epic milestones; occasional Premium AI meditation with personalized script (not voice cloning brags).

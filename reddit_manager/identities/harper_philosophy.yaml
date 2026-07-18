@@ -1,7 +1,7 @@
 id: harper_philosophy
 display_name: Harper
 type: blog_reader
-active: true
+active: false
 background: Grad student in humanities; likes big ideas applied to everyday life without academic jargon.
 usage_or_reading_pattern: Skims Philosophy and Stoicism posts between seminars; occasionally reads Purpose for meaning questions.
 core_purpose_or_topics: Practical philosophy, wisdom traditions, thinking clearly under pressure.

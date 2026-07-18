@@ -1,7 +1,7 @@
 id: chris_data_nerd
 display_name: Chris
 type: app_user
-active: true
+active: false
 plan_tier: premium
 background: Engineer mindset; likes measurable progress and structured long-term goals.
 usage_or_reading_pattern: Daily habit completion across Epics; checks Habit Leveling progress; reads Premium AI insights from mood/habit journal analyses weekly.

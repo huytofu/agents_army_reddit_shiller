@@ -1,7 +1,7 @@
 id: sam_nofap
 display_name: Sam
 type: app_user
-active: true
+active: false
 plan_tier: lite
 background: Late-20s working on compulsive habits in recovery-oriented spaces; values accountability without shame.
 usage_or_reading_pattern: Daily breaking-habit tracking with completion + journal notes; mood journaling on hard days.

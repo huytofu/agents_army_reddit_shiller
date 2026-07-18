@@ -1,7 +1,7 @@
 id: lee_minimalist
 display_name: Lee
 type: app_user
-active: true
+active: false
 plan_tier: lite
 background: Minimalist; dislikes bloated productivity systems and guilt-based streak culture.
 usage_or_reading_pattern: Low frequency — three formation habits max; default meditation library once or twice a week.
