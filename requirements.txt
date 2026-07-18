@@ -1,5 +1,5 @@
 langgraph
-praw
+tweepy
 together
 huggingface-hub
 python-dotenv

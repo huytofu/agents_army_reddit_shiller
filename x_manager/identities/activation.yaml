@@ -1,0 +1,33 @@
+# Identity activation roster
+#
+# Source of truth for which personas may run. Edit this file when an X
+# account + OAuth 1.0a tokens are ready, then move an id into `active`.
+#
+# Loader reads this file (not the per-YAML `active:` field) for pick/list/get.
+
+active:
+  app_users:
+    - maya_habits
+    - jordan_stoic
+  blog_readers:
+    - riley_blog
+
+# Waiting on account/app credentials — move into `active` one at a time.
+deactivated:
+  app_users:
+    - sam_nofap
+    - priya_busy_parent
+    - alex_night_owl
+    - chris_data_nerd
+    - lee_minimalist
+    - taylor_community
+  blog_readers:
+    - morgan_blog
+    - casey_relationships
+    - avery_love
+    - devon_purpose
+    - harper_philosophy
+  # Planned product features (Inspiration Tab) — keep off until release.
+  planned_features:
+    - nova_inspiration
+    - elliot_reflection

@@ -1,0 +1,16 @@
+---
+description: Entourage X marketing swarm — Cursor rules for agents_army_reddit_shiller
+alwaysApply: true
+---
+
+This repository is the Entourage **X marketing swarm**: a CLI-first Python LangGraph service that uses Tweepy (X API v2) OAuth personas, Together/HF LLMs, and humanization gates to browse via recent search and draft/submit replies or rare timeline posts.
+
+- **CLI-first v1:** `python -m x_manager.workers.run_shill_job`; dry-run default; `--live` for X submits.
+- **One identity per run** from `x_manager/identities/*.yaml`; OAuth secrets via `X_{ENV_PREFIX}_*` env vars only.
+- **Browse:** recent search (`search_queries` / `hashtags`) + optional `seed_accounts`; package name `x_manager` (repo folder may still say reddit_shiller).
+- **Supervisor-heavy / specialists thin:** routing in `XPipelineAgent`; `ReplyAgent`/`PostAgent` draft text only. Prefer **reply ≫ post**.
+- **Humanization invariants (do not bypass in code):** browse-before-write, jitter waits, skip coin flip, `genuine_reply` gate dials off supervisor promote on replies, specialist softens promo tone, separated reply/post quotas, reply-biased supervisor routing.
+- **Together primary, HuggingFace fallback** for LLM calls; no Playwright/browser automation in v1.
+- **Prompts:** `x_manager/prompts/shared_guidelines.md` + per-identity YAML `system_prompt`.
+- Scope edits to requested feature; avoid drive-by refactors; add tests only when instructed.
+- Activate `.deployment_env\Scripts\activate` before Python commands.
